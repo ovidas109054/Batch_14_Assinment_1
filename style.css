@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-right:120px;
+    padding-left:120px;
+}
+#options{
+ display:flex;
+ justify-content: space-between;
+}
+.option{
+    margin-right:40px;
+    font-size:23px;
+}
+.regbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(31, 84, 231);
+    color:aliceblue;
+    font-size: 18px;
+    border:none;
+}
