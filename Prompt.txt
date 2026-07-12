@@ -1,0 +1,252 @@
+Acctualy I want to use this section in a project . 
+I was already developed the other part of this project. 
+I have need only the html and css part of this section .
+Can you help me by give the  html and css part of this section seperatly?
+For your Idea I will share the html and css file of this project
+
+Act as a Senior UI/UX Designer and Senior Front-End Developer with 15+ years of experience designing modern SaaS, startup, and technology conference websites.
+
+Your task is to extend the existing landing page while maintaining the exact same design language, typography, spacing, border radius, color palette, and visual hierarchy.
+
+Current page already contains:
+
+• Navigation Bar
+• Hero Banner
+• Featured Speakers Section
+• Ticket Pricing Section
+
+There is now a large empty area below the pricing section. Replace it with a modern, professional, conversion-focused conference experience.
+
+The new sections should feel like they belong naturally to the existing website.
+
+Design Style:
+• Minimal
+• Modern
+• Clean
+• Premium
+• Tech Conference
+• Inspired by Apple, Stripe, Vercel, Google I/O, Microsoft Build, AWS re:Invent and GitHub Universe.
+
+Primary Color:
+#2563EB
+
+Background:
+White
+
+Cards:
+White
+Soft shadow
+12px border radius
+
+Section spacing:
+100px-120px
+
+Container width:
+1200px
+
+Typography:
+Large bold headings
+Comfortable line spacing
+Minimal text
+Lots of whitespace
+
+Hover Effects:
+Cards lift slightly
+Smooth transitions
+Professional animations
+
+---------------------------------------
+
+Create the following sections:
+
+1. WHY ATTEND DEVCONF
+
+Display four feature cards in a 2×2 responsive grid.
+
+Cards:
+
+🎤 World-Class Speakers
+
+Learn directly from industry leaders at Google, Microsoft, OpenAI and Anthropic.
+
+💻 Hands-on Workshops
+
+Practical coding sessions with real-world projects.
+
+🤝 Networking
+
+Meet 4,000+ developers, founders, recruiters and investors.
+
+🚀 Career Growth
+
+Discover internships, jobs and startup opportunities.
+
+Each card should contain:
+
+• Modern icon
+• Bold title
+• Short description
+• Hover elevation effect
+
+---------------------------------------
+
+2. EVENT STATISTICS
+
+Create a modern statistics section.
+
+Include four statistics.
+
+4000+
+Attendees
+
+60+
+Speakers
+
+30+
+Workshops
+
+25+
+Countries
+
+Display them horizontally with large numbers and small labels.
+
+Use subtle blue accent colors.
+
+---------------------------------------
+
+3. CONFERENCE SCHEDULE
+
+Create a modern timeline section.
+
+Three tabs:
+
+Day 1
+Day 2
+Day 3
+
+Example schedule:
+
+09:00 Registration
+
+10:00 Opening Keynote
+
+11:30 AI & Machine Learning
+
+01:00 Lunch Break
+
+02:30 Workshops
+
+05:30 Networking Event
+
+Use clean cards or a vertical timeline.
+
+---------------------------------------
+
+4. SPONSORS
+
+Create a sponsor logo section.
+
+Title:
+
+Trusted by Industry Leaders
+
+Display grayscale logos for:
+
+Google
+Microsoft
+OpenAI
+NVIDIA
+GitHub
+Stripe
+Cloudflare
+Vercel
+
+Logos become colored on hover.
+
+---------------------------------------
+
+5. TESTIMONIALS
+
+Create three testimonial cards.
+
+Each card contains:
+
+★★★★★
+
+Short testimonial
+
+User image
+
+Name
+
+Job title
+
+Company
+
+Cards should be horizontally aligned.
+
+---------------------------------------
+
+6. FAQ
+
+Modern accordion.
+
+Questions:
+
+Can I refund my ticket?
+
+Are recordings included?
+
+Where is the venue?
+
+Can students attend?
+
+What should I bring?
+
+Accordion should smoothly animate.
+
+---------------------------------------
+
+7. FINAL CALL TO ACTION
+
+Create a premium full-width CTA section.
+
+Dark navy background.
+
+Large heading:
+
+Ready to Join DevConf 2026?
+
+Paragraph:
+
+Reserve your seat today and become part of one of the largest developer conferences of the year.
+
+Large blue button:
+
+Register Now
+
+---------------------------------------
+
+General Requirements
+
+The page should feel premium and professionally designed.
+
+Maintain consistent spacing.
+
+Use CSS Grid where appropriate.
+
+Use Flexbox where appropriate.
+
+Follow responsive design principles.
+
+Use semantic HTML5.
+
+Write clean, maintainable HTML and CSS.
+
+Do not use Bootstrap.
+
+Do not use Tailwind CSS.
+
+Only HTML, CSS and vanilla JavaScript.
+
+The final result should look like a real production-ready conference website.
