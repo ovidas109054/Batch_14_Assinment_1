@@ -378,3 +378,272 @@
     display: flex;
     justify-content: center;
 }
+.empty{
+    height:200px;
+}
+.empty hr{
+    border: none;
+    border-top: 1px solid #4d4d4d;
+    margin:40px auto;
+    width: 80%;
+    ;
+}
+ /* Using AI generating part                  */ 
+/* ============================================================ */
+
+/* Why Attend section */
+#why_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.why_section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+.why_card{
+    background-color: rgb(233, 253, 253);
+    border-radius: 10px;
+    padding: 25px;
+    transition: transform 0.2s ease;
+}
+.why_card:hover{
+    transform: translateY(-5px);
+}
+.why_card h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.why_card p{
+    color: rgb(122, 121, 121);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Stats section */
+.stats_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 80px auto 0;
+    padding: 40px 20px;
+}
+.stat_box{
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+}
+.stat_box:last-child{
+    border-right: none;
+}
+.stat_box h2{
+    font-size: 40px;
+    color: rgb(54, 84, 255);
+    font-weight: 700;
+}
+.stat_box p{
+    color: rgb(122, 121, 121);
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Schedule section */
+#schedule_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.schedule_wrapper{
+    max-width: 650px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+.day_radio{
+    display: none;
+}
+.tab_labels{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.tab_btn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    color: rgb(122, 121, 121);
+    font-weight: 700;
+    cursor: pointer;
+}
+#day1:checked ~ .tab_labels label[for="day1"],
+#day2:checked ~ .tab_labels label[for="day2"],
+#day3:checked ~ .tab_labels label[for="day3"]{
+    background-color: rgb(54, 84, 255);
+    color: aliceblue;
+}
+.day_panel{
+    display: none;
+}
+#day1:checked ~ .panel1,
+#day2:checked ~ .panel2,
+#day3:checked ~ .panel3{
+    display: block;
+}
+.schedule_item{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    margin-bottom: 12px;
+}
+.schedule_item .time{
+    width: 90px;
+    font-weight: 700;
+    color: rgb(54, 84, 255);
+}
+.schedule_item .event{
+    font-weight: 600;
+}
+
+/* Sponsors section */
+#sponsor_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.sponsor_section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+    gap: 20px;
+}
+.sponsor_logo{
+    text-align: center;
+    padding: 25px 10px;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    color: rgb(122, 121, 121);
+    font-weight: 700;
+    font-size: 18px;
+    filter: grayscale(1);
+    opacity: 0.7;
+    transition: color 0.2s ease, opacity 0.2s ease, filter 0.2s ease;
+}
+.sponsor_logo:hover{
+    color: rgb(54, 84, 255);
+    opacity: 1;
+    filter: grayscale(0);
+}
+
+/* Testimonials section */
+#testimonial_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.testimonial_section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+.testimonial_card{
+    background-color: rgb(233, 253, 253);
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+}
+.testimonial_card .stars{
+    color: rgb(255, 180, 0);
+    margin-bottom: 15px;
+}
+.testimonial_card .quote{
+    color: rgb(60, 60, 60);
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.testimonial_card h4{
+    font-size: 18px;
+}
+.testimonial_card .role{
+    color: rgb(122, 121, 121);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* FAQ section */
+#faq_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.faq_section{
+    max-width: 700px;
+    margin: 50px auto 0;
+    padding: 0 20px;
+}
+.faq_item{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 18px 0;
+}
+.faq_item summary{
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.faq_item p{
+    color: rgb(122, 121, 121);
+    margin-top: 12px;
+    line-height: 1.5;
+}
+
+/* Final CTA section */
+.cta_section{
+    background-color: rgb(19, 26, 58);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 80px auto 0;
+    padding: 70px 30px;
+}
+.cta_section h2{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.cta_section p{
+    color: rgb(180, 180, 190);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.cta_section .regbtn{
+    width: 220px;
+}
