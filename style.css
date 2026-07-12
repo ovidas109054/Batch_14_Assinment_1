@@ -50,6 +50,9 @@
     margin-bottom:25px ;
     font-weight: 700;
 }
+.content h2 span{
+    font-style: italic;
+}
 .content p{
     font-size: 22px;
     line-height: 1.5;
